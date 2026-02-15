@@ -5,6 +5,8 @@ date:
 
 # Chicken or the Egg?
 
+<!-- more -->
+
 When it comes to bootstrapping and managing Kubernetes clusters on public cloud platforms such as AWS and Azure, there seems to be a few schools of thought, especially when it comes to using Infrastructure as Code. While it's possible to deploy and manage everything manually through their respective consoles, teams will most likely want instead to use IaC and have version controlled code that can deploy and upgrade their clusters. 
 
 ## The Vendor Lock-in Dilemma
