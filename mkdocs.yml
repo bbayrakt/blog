@@ -5,6 +5,8 @@ theme:
   name: material
   favicon: assets/favicon.svg
   scheme: slate
+  features:
+    - content.code.copy
   palette:
     - scheme: slate
       toggle:
@@ -22,6 +24,10 @@ plugins:
       post_dir: posts
 
 markdown_extensions:
+  - pymdownx.highlight:
+      pygments_lang_class: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
   - footnotes
 
 extra:

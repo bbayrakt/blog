@@ -1,4 +1,5 @@
 mkdocs-material>=9.7.1
+pymdown-extensions>=10.0
 # https://github.com/mkdocs/mkdocs/issues/4032
 # Regression with Click version newer than 8.2.1
 # Should be fixed after v9
