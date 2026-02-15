@@ -4,33 +4,14 @@
   --about-text: #e7ecf4;
 }
 
-.about-card {
-  background: var(--about-bg);
-  border: 1px solid var(--about-border);
-  border-radius: 12px;
-  color: var(--about-text);
-  float: right;
-  margin: 0 0 1.5rem 1.5rem;
-  max-width: 320px;
-  padding: 1rem 1.25rem;
+/* Keep publish date, hide read-time */
+article.md-post .md-meta__item:nth-child(2) {
+  display: none !important;
 }
 
-.about-card h2 {
-  font-size: 1.1rem;
-  margin-top: 0;
-}
-
-.about-card a {
-  color: inherit;
-  text-decoration: underline;
-}
-
-@media (max-width: 900px) {
-  .about-card {
-    float: none;
-    margin: 0 0 1rem 0;
-    max-width: none;
-  }
+/* Show title only (no action link) */
+article.md-post .md-post__action {
+  display: none !important;
 }
 
 .about-grid {

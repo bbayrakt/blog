@@ -1,4 +1,4 @@
-# About
+# About Me
 
 I'm Berk, an IT engineer based in Vienna, Austria, with hands-on expertise in on-premise, AWS and Azure cloud infrastructure. My focus is on building reliable, scalable systems using modern infrastructure-as-code practices and cloud-native technologies.
 

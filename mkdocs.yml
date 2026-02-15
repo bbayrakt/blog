@@ -38,4 +38,4 @@ extra_css:
 
 nav:
   - Blog: index.md
-  - About: about.md
+  - About Me: about.md
