@@ -1,0 +1,5 @@
+mkdocs-material>=9.7.1
+# https://github.com/mkdocs/mkdocs/issues/4032
+# Regression with Click version newer than 8.2.1
+# Should be fixed after v9
+click<=8.2.1

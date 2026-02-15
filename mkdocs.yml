@@ -1,0 +1,40 @@
+site_name: infrabytes
+site_url: https://infrabytes.dev
+
+theme:
+  name: material
+  favicon: assets/favicon.svg
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search
+  - blog:
+      blog_dir: .
+      post_dir: posts
+
+markdown_extensions:
+  - footnotes
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/bbayrakt
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/berk-bayraktar-82227b17/
+      name: LinkedIn
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Blog: index.md
+  - About: about.md
